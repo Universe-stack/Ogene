@@ -1,0 +1,39 @@
+.Shop{
+    background-color: #eff2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 75px 15px;
+}
+
+.Shop__inner{
+    background-color: white;
+    width: 90%;
+    padding: 28px 12px;
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Shop__showcase{
+    background-color:  #eff2f5;
+    display: flex;
+    flex-grow: none;
+    flex-shrink: none;
+    flex: 0 0 auto;
+    overflow-x: scroll;
+    padding: 8px 0;
+    
+}
+
+.Shop__details{
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 5px;
+    overflow-y: scroll;
+    background-color: #eff2f5;
+   
+}

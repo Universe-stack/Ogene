@@ -1,0 +1,75 @@
+.Footer{
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 15px;
+    
+}
+
+
+.Footer__inner{
+    width: 60%;
+}
+.Footer__links div ul li{
+    list-style: none;
+    padding: 6px 0;
+}
+.Footer__links div ul {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.Footer__links div {
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+}
+
+.Footer__links div ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 400;
+   
+}
+
+.Footer__links div ul li a:hover{
+    color: #fe8c00;
+}
+
+
+.Footer__sm > span {
+    color: white;
+    margin: 5px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.Footer__footer{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer__footer div ul{
+    margin: 0;
+    padding: 5px 0;
+    display: flex;
+    gap: 16px;
+}
+.Footer__footer div ul li{
+    list-style: none;
+}
+.Footer__footer div ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
+
+.Footer__footer div ul li a:hover{
+    color: #fe8c00;
+}

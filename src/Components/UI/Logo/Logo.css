@@ -1,0 +1,10 @@
+.Logo {
+    display:flex;
+    gap: 2%;
+    align-items: center;
+    flex-direction:row-reverse;
+}
+
+
+
+

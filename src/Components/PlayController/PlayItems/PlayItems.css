@@ -1,0 +1,24 @@
+.PlayItems{
+    position: relative;
+}
+
+
+.PlayItems__img{
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+    left: 110px;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+
+}
+
+
+.PlayItems__img:hover{
+    background-color: white;
+}
+
+.PlayItems__img:active{
+    background-color: orangered;
+}

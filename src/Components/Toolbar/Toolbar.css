@@ -1,0 +1,100 @@
+.Toolbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 4px;
+    background-color: #333;
+    height: 75px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    opacity: 0.9;
+    
+}
+
+.Toolbar__left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 46.3%;
+    gap: 3%;
+}
+
+.Toolbar__right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 3%;
+}
+
+.Toolbar__buttons button {
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    outline: 1px solid orange;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+
+}
+
+.Toolbar__buttons button:hover {
+    color: white;
+    background-color: rgb(14, 154, 205);
+    transform: scale(1.07);
+}
+
+.Toolbar__buttons button:active {
+    color: white;
+    background-color: orange;
+}
+
+
+
+@media(max-width:850px) {
+
+    .Toolbar{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 4px;
+        background-color: #333;
+        height: 75px;
+    }
+    
+    .DeskTopOnly{
+        display: none;
+    }
+
+    .Toolbar__left{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 85%;
+        gap: 2%;
+    }
+
+    .Toolbar__right{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .Toolbar__right div{
+        margin-right: 23%;
+    }
+
+    .Toolbar__buttons button {
+        padding: 4px 8px;
+        margin: 2px;
+        font-size: 14px;
+    }
+}
+
